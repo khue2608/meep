@@ -1,9 +1,11 @@
-print("meepy")
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sevgisarac/temperature-change")
+
+print("Path to dataset files:", path)
 
 
-print("meepy2")
-
-prinrtbekrbtkbr
 
 
-print("aekfhjer ghje rgj")
+# /Users/josephsaputra/.cache/kagglehub/datasets/sevgisarac/temperature-change/versions/4
